@@ -30,9 +30,9 @@
 </div>
 
 ## 📢 News
-
-- 🚀 [2025/10/12] We have released [🤗SpatialASM-edit140k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-edit140k), an image-text-to-image dataset for tuning novel-view generators, and two spatial-VQA datasets with high-quality CoT responses: [🤗SpatialASM-128k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-128k) and its subset [🤗SpatialASM-66k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-66k).
 - 🚀 [2026/10/12] We have released the SpatialASM [📖Arxiv paper](https://arxiv.org/abs/2610.13832) and its [repository](https://github.com/InternLM/SpatialASM).
+- 🚀 [2025/10/12] We have released our allocentric novel-view generator [🤗SpatialASM-NVG](https://huggingface.co/YuhongLiu/SpatialASM-NVG).
+- 🚀 [2025/10/12] We have released [🤗SpatialASM-edit140k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-edit140k), an image-text-to-image dataset for tuning novel-view generators, and two spatial-VQA datasets with high-quality CoT responses: [🤗SpatialASM-128k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-128k) and its subset [🤗SpatialASM-66k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-66k).
 
 ## 🌈 Overview
 
