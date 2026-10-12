@@ -25,7 +25,8 @@
     📖<a href="http://arxiv.org/abs/2610.13832">Paper</a>
   | 🏠<a href="https://github.com/InternLM/SpatialASM">Homepage</a >
   | 🤗<a href="https://huggingface.co/collections/YuhongLiu/spatialasm">SpatialASM Collection</a >
-  | 🤗<a href="https://huggingface.co/collections/YuhongLiu/spatialasm">SpatialASM-128k Dataset</a >
+  | 🤗<a href="https://huggingface.co/datasets/YuhongLiu/SpatialASM-128k">SpatialASM-128k Dataset</a >
+  | 🤗<a href="https://huggingface.co/YuhongLiu/SpatialASM-NVG">SpatialASM-NVG Model</a >
   </p > 
 </div>
 
