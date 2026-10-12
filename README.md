@@ -133,7 +133,7 @@ torchrun --nproc-per-node=8 run.py --data <dataset_name> --model SpatialASM-Qwen
 # For SpatialASM-Qwen3.5-9B, it's recommended to first start a vLLM server for evaluation
 bash qwen3_5_api.sh
 ```
-
+- 🔥 The evaluation code for ESI-passive will be released soon.
 
 ## ✒️Citation
 If you find this project useful, please kindly cite:
