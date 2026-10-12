@@ -84,7 +84,7 @@ git clone https://github.com/InternLM/SpatialASM.git
 cd SpatialASM
 conda create -n spatialasm_vllm python==3.11
 conda activate spatialasm_vllm
-pip install -r Inference/requirements.txt # [spatialasm_vllm] Environment Preparation
+pip install -r Inference/vllm_server_requirements.txt # [spatialasm_vllm] Environment Preparation
 bash Inference/vllm_server.sh \
   "vllm--spatialasm-qwen3.5-9b" \
   "YuhongLiu/SpatialASM-Qwen3.5-9B" \ # Your local path
