@@ -39,7 +39,7 @@ Humans rarely solve difficult spatial problems by passively inspecting the views
 
 We are thrilled to introduce **SpatialASM**, a scalable framework that internalizes ASM into LVLMs. Through the two-stage training on LVLMs, SpatialASM elicits active spatial exploration and imagination and enhances the overall spatial reasoning performance.
 <p style="text-align: center;"> 
-  <img src="assets/teaser.png" alt="Teaser" width="100%"> 
+  <img src="Assets/teaser.png" alt="Teaser" width="100%"> 
 </p>
 
 SpatialASM consists of three complementary components:
@@ -48,7 +48,7 @@ SpatialASM consists of three complementary components:
 2. **ASM Trajectory Synthesis.** Given a spatial QA sample, an LVLM plans informative viewpoints and the NVG renders the corresponding observations. After GeoP and answer-consistency filtering, rendered views are replaced by textual captions to form explicit plan-imagine-reason trajectories for SFT.
 3. **View-Imagination Reinforcement Learning.** Geometry-filtered candidate views are used to construct automatically verifiable perspective-taking tasks. GRPO further strengthens the association between a viewpoint description and its expected observation.
 <p style="text-align: center;"> 
-  <img src="assets/pipeline.png" alt="Pipeline" width="100%"> 
+  <img src="Assets/pipeline.png" alt="Pipeline" width="100%"> 
 </p>
 
 
@@ -59,7 +59,7 @@ SpatialASM consists of three complementary components:
 - 🔥 **Training-time spatial simulation:** A novel-view generator acts as temporary training scaffolding. The final model does not depend on a world model, renderer, or additional visual observations at inference time.
 - 🔥 **Grounded and reliable supervision:** An allocentric viewpoint interface reaches a target perspective in one query, while the **Geometry Perturbation (GeoP)** metric and answer-consistency checks filter unreliable synthesized views and trajectories.
 <p style="text-align: center;"> 
-  <img src="assets/comparison.png" alt="Comparison" width="100%"> 
+  <img src="Assets/comparison.png" alt="Comparison" width="100%"> 
 </p>
 
 
@@ -68,7 +68,7 @@ SpatialASM consists of three complementary components:
 We train four LVLM backbones of Qwen3-VL and Qwen3.5 with our SpatialASM framework, and the experimental results on both spatial reasoning and general-VQA tasks are shown below.
 
 <p style="text-align: center;"> 
-  <img src="assets/results.png" alt="Exp" width="100%"> 
+  <img src="Assets/results.png" alt="Exp" width="100%"> 
 </p>
 
 ## ✒️Citation
