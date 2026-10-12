@@ -71,3 +71,25 @@ We train four LVLM backbones of Qwen3-VL and Qwen3.5 with our SpatialASM framewo
   <img src="assets/results.png" alt="Exp" width="100%"> 
 </p>
 
+## ✒️Citation
+If you find this project useful, please kindly cite:
+```
+@article{liu2026spatialasm,
+  title={SpatialASM: Internalizing Active Mentalization for Spatial Reasoning},
+  author={Yuhong Liu, Shenxi Wu, Junyi Chi, Beichen Zhang, Xuanlang Dai, Jiaqi Wang, Yuhang Zang, Dahua Lin},
+  journal={arXiv preprint arXiv:2610.13832},
+  year={2026}
+}
+```
+
+## 📄 License
+![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg) ![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg) 
+
+**Use of SpatialASM-NVG**: The model <a href="https://huggingface.co/YuhongLiu/SpatialASM-NVG">SpatialASM-NVG</a > is trained on <a href="https://huggingface.co/black-forest-labs/FLUX.2-klein-9B">FLUX.2-klein-9B</a >, so please follow <a href="https://github.com/black-forest-labs/flux2/blob/main/model_licenses/LICENSE-FLUX-NON-COMMERICAL">FLUX-NON-COMMERCIAL LICENSE</a >.
+
+**Usage and License Notices**: The data and code are intended and licensed for research use only.
+
+## ❤️ Acknowledgement
+The evaluation part is built on <a href="https://github.com/open-compass/VLMEvalKit">VLMEvalkit</a >, a powerful toolkit to evaluate a vast range of LMMs!
+
+The training part is built on <a href="https://github.com/modelscope/DiffSynth-Studio">DiffSynth-Studio</a >, an excellent codebase for Diffusion model training!
