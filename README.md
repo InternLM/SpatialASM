@@ -111,6 +111,28 @@ bash training-scripts/NVG-training.sh
 
 - 🔥 The training code for LVLMs will be coming soon.
 
+## 🛠️ Evaluation
+Prepare the environment:
+```bash
+conda create -n evaluation python==3.10
+conda activate evaluation
+cd Evaluation/VLMEvalKit
+pip install -e .
+
+# Recommended
+pip install flash-attn --no-build-isolation
+```
+All benchmarks except ESI-Bench are supported by <a href="https://github.com/open-compass/VLMEvalKit">VLMEvalkit</a >. We use its official repository. 
+```bash
+# Single GPU
+python3 run.py --data <dataset_name> --model SpatialASM-Qwen3-VL-8B --verbose
+
+# Multi-GPU (Distributed)
+torchrun --nproc-per-node=8 run.py --data <dataset_name> --model SpatialASM-Qwen3-VL-8B --verbose
+
+# For SpatialASM-Qwen3.5-9B, it's recommended to first start a vLLM server for evaluation
+bash qwen3_5_api.sh
+```
 
 
 ## ✒️Citation
