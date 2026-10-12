@@ -23,7 +23,7 @@
   </p>
   <p align="center" style="font-size: 1.2em; margin-top: 0.5em">
     📖<a href="http://arxiv.org/abs/2610.13832">Paper</a>
-  | 🏠<a href="https://github.com/InternLM/Spatial-SSRL">Homepage</a >
+  | 🏠<a href="https://github.com/InternLM/SpatialASM">Homepage</a >
   | 🤗<a href="https://huggingface.co/collections/YuhongLiu/spatialasm">SpatialASM Collection</a >
   | 🤗<a href="https://huggingface.co/collections/YuhongLiu/spatialasm">SpatialASM-128k Dataset</a >
   </p > 
@@ -31,7 +31,8 @@
 
 ## 📢 News
 
-- 🔥 SpatialASM is coming soon. Please stay tuned for the paper, models, data, and code.
+- 🚀 [2025/10/12] We have released [🤗SpatialASM-edit140k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-edit140k), an image-text-to-image dataset for tuning novel-view generators, and two spatial-VQA datasets with high-quality CoT responses: [🤗SpatialASM-128k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-128k) and its subset [🤗SpatialASM-66k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-66k).
+- 🚀 [2026/10/12] We have released the SpatialASM [📖Arxiv paper](https://arxiv.org/abs/2610.13832) and its [repository](https://github.com/InternLM/SpatialASM).
 
 ## 🌈 Overview
 
