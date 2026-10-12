@@ -101,6 +101,17 @@ python3 Inference/check_NVG.py # Change the input image paths in check_NVG.py fi
 ```
 
 
+## 🛠️ Training
+First download <a href="https://huggingface.co/black-forest-labs/FLUX.2-klein-9B">FLUX.2-klein-9B</a > and [SpatialASM-edit140k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-edit140k). Then convert the dataset to the format in <a href="https://github.com/InternLM/SpatialASM/blob/main/DiffSynth-Studio/training-scripts/training_samples.jsonl">training_samples.jsonl</a >, and change paths in <a href="https://github.com/InternLM/SpatialASM/blob/main/DiffSynth-Studio/training-scripts/NVG-training.sh">NVG-training.sh</a > to your local path. And you can start training!
+```bash
+conda activate NVG # First prepare the environment NVG. (see ⭐️ Quick Start)
+cd DiffSynth-Studio
+bash training-scripts/NVG-training.sh
+```
+
+- 🔥 The training code for LVLMs will be coming soon.
+
+
 
 ## ✒️Citation
 If you find this project useful, please kindly cite:
