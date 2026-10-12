@@ -86,8 +86,8 @@ conda create -n spatialasm_vllm python==3.11
 conda activate spatialasm_vllm
 pip install -r Inference/requirements.txt # [spatialasm_vllm] Environment Preparation
 bash Inference/vllm_server.sh \
-  "vllm--spatialasm-qwen3vl-8b" \
-  "YuhongLiu/SpatialASM-Qwen3-VL-8B" \ # Your local path
+  "vllm--spatialasm-qwen3.5-9b" \
+  "YuhongLiu/SpatialASM-Qwen3.5-9B" \ # Your local path
   "23333" \
   "0"
 
