@@ -73,6 +73,35 @@ We train four LVLM backbones of Qwen3-VL and Qwen3.5 with our SpatialASM framewo
   <img src="Assets/results.png" alt="Exp" width="100%"> 
 </p>
 
+
+## ⭐️ Quick Start
+Here we provide simple inference code for you to try our models. The models include the LVLMs such as [🤗SpatialASM-Qwen3-VL-4B](https://huggingface.co/YuhongLiu/SpatialASM-Qwen3-VL-4B) (see '📢News' above), and the novel-view generator [🤗SpatialASM-NVG](https://huggingface.co/YuhongLiu/SpatialASM-NVG).
+
+To use the LVLMs, you can either start a [vLLM](https://github.com/vllm-project/vllm) server or load it in your device with [Transformers](https://github.com/huggingface/transformers). 
+```python
+# Start a vLLM server for fine-tuned LVLMs.
+git clone https://github.com/InternLM/SpatialASM.git
+cd SpatialASM
+conda create -n spatialasm_vllm python==3.11
+conda activate spatialasm_vllm
+pip install -r Inference/requirements.txt # [spatialasm_vllm] Environment Preparation
+bash Inference/vllm_server.sh \
+  "vllm--spatialasm-qwen3vl-8b" \
+  "YuhongLiu/SpatialASM-Qwen3-VL-8B" \ # Your local path
+  "23333" \
+  "0"
+
+# SpatialASM-NVG Inference 
+conda create -n NVG python==3.11
+conda activate NVG
+cd DiffSynth-Studio && pip install -e . # [NVG] Environment Preparation
+cd ..
+bash Inference/edit_server.sh
+python3 Inference/check_NVG.py # Change the input image paths in check_NVG.py first.
+```
+
+
+
 ## ✒️Citation
 If you find this project useful, please kindly cite:
 ```
