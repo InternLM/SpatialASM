@@ -75,7 +75,7 @@ We train four LVLM backbones of Qwen3-VL and Qwen3.5 with our SpatialASM framewo
 
 
 ## ⭐️ Quick Start
-Here we provide some simple inference code for you to try our models. The models include the LVLMs such as [🤗SpatialASM-Qwen3-VL-4B](https://huggingface.co/YuhongLiu/SpatialASM-Qwen3-VL-4B) (see '📢News' above), and the novel-view generator [🤗SpatialASM-NVG](https://huggingface.co/YuhongLiu/SpatialASM-NVG).
+Here we provide some simple inference code for you to try our models. The models include the LVLMs such as [🤗SpatialASM-Qwen3-VL-4B](https://huggingface.co/YuhongLiu/SpatialASM-Qwen3-VL-4B) (see **📢News** above), and the novel-view generator [🤗SpatialASM-NVG](https://huggingface.co/YuhongLiu/SpatialASM-NVG).
 
 To use the LVLMs, you can either start a [vLLM](https://github.com/vllm-project/vllm) server or load it in your device with [Transformers](https://github.com/huggingface/transformers). 
 ```bash
@@ -104,7 +104,7 @@ python3 Inference/check_NVG.py # Change the input image paths in check_NVG.py fi
 ## 🛠️ Training
 First download <a href="https://huggingface.co/black-forest-labs/FLUX.2-klein-9B">FLUX.2-klein-9B</a > and [SpatialASM-edit140k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-edit140k). Then convert the dataset to the format in <a href="https://github.com/InternLM/SpatialASM/blob/main/DiffSynth-Studio/training-scripts/training_samples.jsonl">training_samples.jsonl</a >, and change paths in <a href="https://github.com/InternLM/SpatialASM/blob/main/DiffSynth-Studio/training-scripts/NVG-training.sh">NVG-training.sh</a > to your local path. And you can start training!
 ```bash
-conda activate NVG # First prepare the environment NVG. (see ⭐️ Quick Start)
+conda activate NVG # First prepare the environment NVG. (see `⭐️Quick Start')
 cd DiffSynth-Studio
 bash training-scripts/NVG-training.sh
 ```
