@@ -92,4 +92,4 @@ If you find this project useful, please kindly cite:
 ## ❤️ Acknowledgement
 The evaluation part is built on <a href="https://github.com/open-compass/VLMEvalKit">VLMEvalkit</a >, a powerful toolkit to evaluate a vast range of LMMs!
 
-The training part is built on <a href="https://github.com/modelscope/DiffSynth-Studio">DiffSynth-Studio</a >, an excellent codebase for Diffusion model training!
+The NVG training part is built on <a href="https://github.com/modelscope/DiffSynth-Studio">DiffSynth-Studio</a >, an excellent codebase for Diffusion model training!
