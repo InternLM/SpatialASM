@@ -78,7 +78,7 @@ We train four LVLM backbones of Qwen3-VL and Qwen3.5 with our SpatialASM framewo
 Here we provide some simple inference code for you to try our models. The models include the LVLMs such as [🤗SpatialASM-Qwen3-VL-4B](https://huggingface.co/YuhongLiu/SpatialASM-Qwen3-VL-4B) (see '📢News' above), and the novel-view generator [🤗SpatialASM-NVG](https://huggingface.co/YuhongLiu/SpatialASM-NVG).
 
 To use the LVLMs, you can either start a [vLLM](https://github.com/vllm-project/vllm) server or load it in your device with [Transformers](https://github.com/huggingface/transformers). 
-```python
+```bash
 # Start a vLLM server for fine-tuned LVLMs.
 git clone https://github.com/InternLM/SpatialASM.git
 cd SpatialASM
