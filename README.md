@@ -135,6 +135,14 @@ bash qwen3_5_api.sh
 ```
 - 🔥 The evaluation code for ESI-passive will be released soon.
 
+## 🧩Cases
+<p style="text-align: center;"> 
+  <img src="Assets/NVG.png" alt="Teaser" width="90%"> 
+</p>
+<p style="text-align: center;"> 
+  <img src="Assets/VLM-case.png" alt="Teaser" width="100%"> 
+</p>
+
 ## ✒️Citation
 If you find this project useful, please kindly cite:
 ```
