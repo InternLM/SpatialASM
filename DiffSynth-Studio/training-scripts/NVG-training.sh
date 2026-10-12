@@ -11,7 +11,7 @@ accelerate launch \
   --dynamo_backend=no \
   examples/flux2/model_training/train.py \
   --dataset_base_path "${ROOT_DIR}" \
-  --dataset_metadata_path "training-scripts\training_samples.jsonl" \
+  --dataset_metadata_path "training-scripts/training_samples.jsonl" \
   --data_file_keys "image,edit_image" \
   --extra_inputs "edit_image" \
   --max_pixels 1048576 \
