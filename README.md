@@ -27,6 +27,7 @@
   | 🤗<a href="https://huggingface.co/collections/YuhongLiu/spatialasm">SpatialASM Collection</a >
   | 🤗<a href="https://huggingface.co/datasets/YuhongLiu/SpatialASM-128k">SpatialASM-128k Dataset</a >
   | 🤗<a href="https://huggingface.co/YuhongLiu/SpatialASM-NVG">SpatialASM-NVG Model</a >
+  | 📰<a href="https://huggingface.co/papers/2610.13832">Daily Paper</a >
   </p > 
 </div>
 
