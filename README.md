@@ -36,7 +36,7 @@
 - 🚀 [2025/10/12] We have released our allocentric novel-view generator [🤗SpatialASM-NVG](https://huggingface.co/YuhongLiu/SpatialASM-NVG).
 - 🚀 [2025/10/12] We have released [🤗SpatialASM-edit140k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-edit140k), an image-text-to-image dataset for tuning novel-view generators, and two spatial-VQA datasets with high-quality CoT responses: [🤗SpatialASM-128k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-128k) and its subset [🤗SpatialASM-66k](https://huggingface.co/datasets/YuhongLiu/SpatialASM-66k).
 - 🚀 [2025/10/14] We have released three LVLMs equipped with internalized ASM capabilities for complex spatial reasoning tasks: [🤗SpatialASM-Qwen3-VL-4B Model](https://huggingface.co/YuhongLiu/SpatialASM-Qwen3-VL-4B), [🤗SpatialASM-Qwen3-VL-8B Model](https://huggingface.co/YuhongLiu/SpatialASM-Qwen3-VL-8B), and [🤗SpatialASM-Qwen3.5-9B Model](https://huggingface.co/YuhongLiu/SpatialASM-Qwen3.5-9B).
-- 🚀 [2025/10/16] We have released the MCQ dataset for view-imagination RL: [🤗SpatialASM-RL-58k Model](https://huggingface.co/datasets/YuhongLiu/SpatialASM-RL-58k).
+- 🚀 [2025/10/16] We have released the dataset for view-imagination RL: [🤗SpatialASM-RL-58k Model](https://huggingface.co/datasets/YuhongLiu/SpatialASM-RL-58k).
 
 ## 🌈 Overview
 
